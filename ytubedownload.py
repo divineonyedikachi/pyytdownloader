@@ -7,7 +7,7 @@ def Download(link):
       youtubeObject.download()
   except:
     print("There has been an error in downloading your youtube video")
-  print("This download has completed! Yahooooo!")
+  print("This download has completed!")
 
-link = input("Put your youtube link here!! URL: ")
+link = input("Enter YouTube URL: ")
 Download(link)
